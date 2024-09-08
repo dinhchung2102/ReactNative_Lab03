@@ -6,12 +6,14 @@ import Screen_1b from "./screen/Screen_1b";
 import Screen_1c from "./screen/Screen_1c";
 import Screen_1d from "./screen/Screen_1d";
 import Screen_1e from "./screen/Screen_1e";
+import Screen_2a from "./screen/Screen_2a";
+import XMEye from "./screen/XMEye";
 //import Screen_1c from './screen/Screen_1c';
 
 const App = () => {
   return(
     <SafeAreaView style = {styles.container}>
-     <Screen_1e />  
+     <XMEye />  
     </SafeAreaView>
   )
   // Replace <Screen_1 /> with the desired screen component based on your needs
